@@ -1,0 +1,18 @@
+{
+  "$schema": "https://static.modelcontextprotocol.io/schemas/2025-09-29/server.schema.json",
+  "name": "com.rowhousesoftware/storyledger",
+  "title": "Storyledger",
+  "description": "Check book chapters against your story notes. Find facts and build a timeline.",
+  "websiteUrl": "https://ledger.rowhousesoftware.com",
+  "version": "1.0.0",
+  "repository": {
+    "url": "https://github.com/rowhousesoftware/storyledger",
+    "source": "github"
+  },
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://ledger.rowhousesoftware.com/mcp"
+    }
+  ]
+}
